@@ -1,1 +1,148 @@
+<div class="site">
+  <div class="hero">
+    <div class="hero-banner">
+      <div style="position:absolute;inset:0;background:linear-gradient(135deg,#2a1000,#0d0d0d 50%,#1a0800);"></div>
+      <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0.08;">
+        <div style="font-family:'Cinzel',serif;font-size:120px;color:#ff8c00;font-weight:700;letter-spacing:20px;">LS</div>
+      </div>
+      <div class="hero-banner-grad"></div>
+      <div class="hero-text-over">
+        <div class="official-tag">✦ Official Community ✦</div>
+        <div class="hero-title">Life Sentence</div>
+        <div class="hero-community">Community</div>
+      </div>
+    </div>
+    <div class="hero-sub">by Real Heat Studios &nbsp;·&nbsp; Every sentence is a death sentence</div>
+    <div class="stats-row">
+      <div class="stat"><div class="stat-num">87.9M+</div><div class="stat-label">Visits</div></div>
+      <div class="stat"><div class="stat-num">215K+</div><div class="stat-label">Favorites</div></div>
+      <div class="stat"><div class="stat-num">152K+</div><div class="stat-label">Likes</div></div>
+      <div class="stat"><div class="stat-num">6</div><div class="stat-label">Server size</div></div>
+    </div>
+  </div>
+  <div class="desc-box">Be an inmate and survive in a prison where every sentence is a death sentence. Rub shoulders with up to 35 fellow inmates in a sprawling jail with unique areas, each filled with interactive furniture and props. Maybe if you're smart enough, you might just find a way to escape.</div>
+  <div class="section-label">Community Hub</div>
+  <div class="grid">
+    <div class="card" onclick="openModal('tierlist')"><span class="card-icon">🏆</span><div class="card-title">Tier List</div><div class="card-sub">Player rankings</div></div>
+    <div class="card" onclick="openModal('creators')"><span class="card-icon">🎬</span><div class="card-title">Top Creators</div><div class="card-sub">Content creators</div></div>
+    <div class="card" onclick="openModal('legends')"><span class="card-icon">👑</span><div class="card-title">LS Legends</div><div class="card-sub">Hall of fame</div></div>
+    <div class="card" onclick="openModal('admins')"><span class="card-icon">🛡️</span><div class="card-title">Owner & Admins</div><div class="card-sub">Staff team</div></div>
+    <div class="card" onclick="openModal('discord')"><span class="card-icon">💬</span><div class="card-title">Discord Server</div><div class="card-sub">Join the community</div></div>
+    <div class="card" onclick="openModal('clans')"><span class="card-icon">⚔️</span><div class="card-title">Clan Rankings</div><div class="card-sub">Active & dead clans</div></div>
+    <div class="card" onclick="openModal('joinclan')"><span class="card-icon">🔗</span><div class="card-title">Join a Clan</div><div class="card-sub">Find your squad</div></div>
+    <div class="card" onclick="openModal('donate')"><span class="card-icon">💎</span><div class="card-title">Donate Robux</div><div class="card-sub">Support the community</div></div>
+  </div>
+  <div class="footer">Life Sentence Official Community &nbsp;·&nbsp; Not affiliated with Real Heat Studios &nbsp;·&nbsp; Roblox Game ID: 13084323955</div>
+</div>
 
+<!-- TIER LIST -->
+<div class="modal-overlay" id="modal-tierlist">
+  <div class="modal">
+    <div class="modal-head"><div class="modal-head-title">🏆 Tier List</div><button class="close-btn" onclick="closeModal('tierlist')">✕</button></div>
+    <div class="modal-body">
+      <div class="tier-row"><span class="tier-badge tier-s">S</span><div class="tier-names">Add your S tier players here</div></div>
+      <div class="tier-row"><span class="tier-badge tier-a">A</span><div class="tier-names">Add your A tier players here</div></div>
+      <div class="tier-row"><span class="tier-badge tier-b">B</span><div class="tier-names">Add your B tier players here</div></div>
+      <div class="tier-row"><span class="tier-badge tier-c">C</span><div class="tier-names">Add your C tier players here</div></div>
+      <div class="tier-row"><span class="tier-badge tier-d">D</span><div class="tier-names">Add your D tier players here</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- CREATORS -->
+<div class="modal-overlay" id="modal-creators">
+  <div class="modal">
+    <div class="modal-head"><div class="modal-head-title">🎬 Top Content Creators</div><button class="close-btn" onclick="closeModal('creators')">✕</button></div>
+    <div class="modal-body">
+      <div class="creator-card"><div class="creator-avatar">#1</div><div><div class="creator-name">Creator Name</div><div class="creator-note">Platform / notes</div></div></div>
+      <div class="creator-card"><div class="creator-avatar">#2</div><div><div class="creator-name">Creator Name</div><div class="creator-note">Platform / notes</div></div></div>
+      <div class="creator-card"><div class="creator-avatar">#3</div><div><div class="creator-name">Creator Name</div><div class="creator-note">Platform / notes</div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- LEGENDS -->
+<div class="modal-overlay" id="modal-legends">
+  <div class="modal">
+    <div class="modal-head"><div class="modal-head-title">👑 Life Sentence Legends</div><button class="close-btn" onclick="closeModal('legends')">✕</button></div>
+    <div class="modal-body">
+      <div class="legend-card"><div class="legend-name">Legend Name</div><div class="legend-reason">Reason they're a legend</div></div>
+      <div class="legend-card"><div class="legend-name">Legend Name</div><div class="legend-reason">Reason they're a legend</div></div>
+      <div class="legend-card"><div class="legend-name">Legend Name</div><div class="legend-reason">Reason they're a legend</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ADMINS -->
+<div class="modal-overlay" id="modal-admins">
+  <div class="modal">
+    <div class="modal-head"><div class="modal-head-title">🛡️ Owner & Admins</div><button class="close-btn" onclick="closeModal('admins')">✕</button></div>
+    <div class="modal-body">
+      <div class="admin-row"><span class="admin-role">Owner</span><div class="admin-name">Real Heat Studios</div></div>
+      <div class="admin-row"><span class="admin-role">Admin</span><div class="admin-name">Admin name here</div></div>
+      <div class="admin-row"><span class="admin-role">Admin</span><div class="admin-name">Admin name here</div></div>
+      <div class="admin-row"><span class="admin-role">Mod</span><div class="admin-name">Mod name here</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- DISCORD -->
+<div class="modal-overlay" id="modal-discord">
+  <div class="modal">
+    <div class="modal-head"><div class="modal-head-title">💬 Discord Server</div><button class="close-btn" onclick="closeModal('discord')">✕</button></div>
+    <div class="modal-body">
+      <div class="discord-box">
+        <div style="font-family:'Cinzel',serif;font-size:15px;color:#e8e0d0;margin-bottom:6px;">Life Sentence Community</div>
+        <div style="font-size:12px;color:#888;">Join the official Discord to connect with players, find clans, and stay updated.</div>
+        <button class="discord-btn" onclick="window.open('https://discord.gg/YOURLINK','_blank')">Join Discord ↗</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CLAN RANKINGS -->
+<div class="modal-overlay" id="modal-clans">
+  <div class="modal">
+    <div class="modal-head"><div class="modal-head-title">⚔️ Clan Rankings</div><button class="close-btn" onclick="closeModal('clans')">✕</button></div>
+    <div class="modal-body">
+      <div style="font-size:11px;letter-spacing:2px;color:#ff8c00;text-transform:uppercase;font-family:'Cinzel',serif;margin-bottom:10px;">Active Clans</div>
+      <div class="clan-row"><div class="clan-name" style="color:#ffd700;">Clan Name</div><span class="clan-rank">#1</span><span class="clan-status-alive">● Active</span></div>
+      <div class="clan-row"><div class="clan-name">Clan Name</div><span class="clan-rank">#2</span><span class="clan-status-alive">● Active</span></div>
+      <div class="clan-row"><div class="clan-name">Clan Name</div><span class="clan-rank">#3</span><span class="clan-status-alive">● Active</span></div>
+      <div style="font-size:11px;letter-spacing:2px;color:#555;text-transform:uppercase;font-family:'Cinzel',serif;margin:16px 0 10px;">Dead Clans</div>
+      <div class="clan-row"><div class="clan-name" style="color:#555;">Dead Clan</div><span class="clan-status-dead">✕ Disbanded</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- JOIN A CLAN -->
+<div class="modal-overlay" id="modal-joinclan">
+  <div class="modal">
+    <div class="modal-head"><div class="modal-head-title">🔗 Join a Clan</div><button class="close-btn" onclick="closeModal('joinclan')">✕</button></div>
+    <div class="modal-body">
+      <div style="font-size:13px;color:#888;margin-bottom:16px;">Click a clan to join their Discord and apply.</div>
+      <div class="clan-row"><div class="clan-name">Clan Name 1</div><a class="clan-join-btn" href="https://discord.gg/PLACEHOLDER" target="_blank">Join ↗</a></div>
+      <div class="clan-row"><div class="clan-name">Clan Name 2</div><a class="clan-join-btn" href="https://discord.gg/PLACEHOLDER" target="_blank">Join ↗</a></div>
+      <div class="clan-row"><div class="clan-name">Clan Name 3</div><a class="clan-join-btn" href="https://discord.gg/PLACEHOLDER" target="_blank">Join ↗</a></div>
+      <div class="clan-row"><div class="clan-name">Clan Name 4</div><a class="clan-join-btn" href="https://discord.gg/PLACEHOLDER" target="_blank">Join ↗</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- DONATE -->
+<div class="modal-overlay" id="modal-donate">
+  <div class="modal">
+    <div class="modal-head"><div class="modal-head-title">💎 Donate Robux</div><button class="close-btn" onclick="closeModal('donate')">✕</button></div>
+    <div class="modal-body">
+      <div class="donate-header">Support the Life Sentence community. Every donation keeps this site running.</div>
+      <div class="donate-grid">
+        <a class="donate-btn" href="https://www.roblox.com/game-pass/PLACEHOLDER" target="_blank"><div class="donate-robux">10 R$</div><div class="donate-label">Small</div></a>
+        <a class="donate-btn" href="https://www.roblox.com/game-pass/PLACEHOLDER" target="_blank"><div class="donate-robux">50 R$</div><div class="donate-label">Supporter</div></a>
+        <a class="donate-btn" href="https://www.roblox.com/game-pass/PLACEHOLDER" target="_blank"><div class="donate-robux">100 R$</div><div class="donate-label">Backer</div></a>
+        <a class="donate-btn" href="https://www.roblox.com/game-pass/PLACEHOLDER" target="_blank"><div class="donate-robux">250 R$</div><div class="donate-label">OG</div></a>
+        <a class="donate-btn" href="https://www.roblox.com/game-pass/PLACEHOLDER" target="_blank"><div class="donate-robux">500 R$</div><div class="donate-label">Legend</div></a>
+        <a class="donate-btn" href="https://www.roblox.com/game-pass/PLACEHOLDER" target="_blank"><div class="donate-robux">1000 R$</div><div class="donate-label">God Tier</div></a>
+      </div>
+    </div>
+  </div>
+</div>
